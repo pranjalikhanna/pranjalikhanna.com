@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+                <h6 class="text-danger">AWARD WINNING</h6>
+                <h1 class="font-weight-bold">DIGITAL MARKETING AGENCY</h1>
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum.</p>
+                <button class="btn btn-danger" id="contact-us-btn">Contact Us</button>
+            </div>
+            <div class="col-md-6">
+                <img src="hero.png" alt="Placeholder image" class="image">
+            </div> 
+        </div>
+    </div>
+
+    <!-- Contact Us Modal -->
+    <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Talk to us</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="https://getform.io/f/warkmgrb" method="POST">
+                        <div class="form-group">
+                            <label for="email">Work email*</label>
+                            <input type="email" class="form-control" id="email" name=""email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="first-name">First name*</label>
+                            <input type="text" class="form-control" id="first-name" name="first-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last name*</label>
+                            <input type="text" class="form-control" id="last-name" name=""last-name" required>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="consent" name="consent" required>
+                            <label class="form-check-label" for="consent">I agree to terms and conditions, and provide consent to send me communication.</label>
+                        </div>
+                        <button type="submit" class="btn btn-danger">Contact Us</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- What We Do Section -->
+    <section class="what-we-do-section py-5">
+        <div class="container">
+            <h5 class="text-danger">WHAT WE DO</h5>
+            <h1 class="font-weight-bold">SERVICES PROVIDE FOR YOU</h1>
+            <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante ac at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+            <div id="servicesCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#servicesCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#servicesCarousel" data-slide-to="1"></li>
+                    <li data-target="#servicesCarousel" data-slide-to="2"></li>
+                    <li data-target="#servicesCarousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex">
+                            <div class="card service-card">
+                                <img src="1.png" class="card-img-top" alt="Service 1">
+                            </div>
+                            <div class="card service-card">
+                                <img src="2.png" class="card-img-top" alt="Service 2">
+                            </div>
+                            <div class="card service-card">
+                                <img src="3.png" class="card-img-top" alt="Service 3">
+                                <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center overlay-content" >
+                                    <h3>WEB DEVELOPMENT</h3>
+                                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh.</p>
+                                    <a href="https://fylehq.com" target="_blank" class="btn btn-danger">Read More</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us-section py-5">
+        <div class="container text-center">
+            <h5 class="text-danger">WHY CHOOSE US</h5>
+            <h1 class="font-weight-bold">WHY WE ARE BEST</h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="A.png" alt="Client A" class="img-fluid">
+                    <h4>Clarified Vision & Target</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam nonummy.</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="B.png" alt="Client B" class="img-fluid">
+                    <h4>High Performance</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam nonummy.</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="C.png" alt="Client C" class="img-fluid">
+                    <h4>Maintain Security</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam nonummy.</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="D.png" alt="Client D" class="img-fluid">
+                    <h4>Better Strategy & Quality</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam nonummy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Project Section -->
+    <section class="our-project-section py-5">
+        <div class="container">
+            <h5 class="text-danger">OUR PROJECT</h5>
+            <h1 class="font-weight-bold">WHY WE ARE BEST</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <img id="projectImage" src="image.png" class="img-fluid" alt="Project Image">
+                </div>
+                <div class="col-md-6">
+                    <div class="project-content" data-image="8.jpg">
+                        <h4>Genderless Kei - Japan's Hot</h4>
+                        <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+                    </div>
+                    <div class="project-content" data-image="9.jpg">
+                        <h4>Better Strategy & Quality</h4>
+                        <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+                    </div>
+                    <div class="project-content" data-image="10.jpg">
+                        <h4>Genderless Kei - Japan's Hot</h4>
+                        <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Growth Section -->
+    <section class="company-growth-section py-5">
+        <div class="container text-center">
+            <h5 class="text-danger">EXPERTS GROWTH</h5>
+            <h1 class="font-weight-bold">OUR COMPANY GROWTH</h1>
+            <div class="row mt-4">
+                <div class="col-md-3">
+                    <div class="growth-card">
+                        <div class="icon">❤️</div>
+                        <h2>199 +</h2>
+                        <p>Statified Customers</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="growth-card">
+                        <div class="icon">⏱️</div>
+                        <h2>1591+</h2>
+                        <p>Days Of Operation</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="growth-card">
+                        <div class="icon">✔️</div>
+                        <h2>283 +</h2>
+                        <p>Complete Project</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="growth-card">
+                        <div class="icon">🏆</div>
+                        <h2>75+</h2>
+                        <p>Win Awards</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Feedback Section -->
+    <section class="client-feedback-section py-5">
+        <div class="container text-center">
+            <h5 class="text-danger">CLIENT'S FEEDBACK</h5>
+            <h1 class="font-weight-bold">PEOPLE SAY'S ABOUT US!</h1>
+            <p class="feedback mt-4">
+                <span class="quote">&ldquo;</span>
+                Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.
+            </p>
+            <p class="author mt-2">
+                <span class="font-weight-bold text-danger">JANNAT TUMPA</span> – COO, AMERIMAR ENTERPRISES, INC.
+            </p>
+        </div>
+    </section>
+
+    <!-- Clients' Logos Section -->
+    <section class="clients-logos-section py-5">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-md-2">
+                    <img src="Group 500.png" alt="Client 1" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#contact-us-btn').on('click', function() {
+                $('#contact-modal').modal('show');
+            });
+        });
+    </script>
+</body>
+</html>
